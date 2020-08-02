@@ -1,0 +1,27 @@
+{
+    "name": "aiomlm/settings-system",
+    "description": "Settings system for aiomlm livewire",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pran pegu",
+            "email": "ffegu0617@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aiomlm\\Settings\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                 "Aiomlm\\Settings\\SettingsServiceProvider"
+            ]
+        }
+    }
+}
