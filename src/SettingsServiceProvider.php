@@ -10,7 +10,7 @@ class SettingsServiceProvider extends ServiceProvider
 
    public function boot()
    {
-       dd('hello');
+         
    }
 
    public function register()
